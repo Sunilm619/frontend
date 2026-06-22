@@ -68,6 +68,7 @@ const Login = () => {
       console.log(response.data);
 
       setIsLogin(true);
+      navigate("/myTrips");
     } catch (err) {
       console.log(err);
       setErrors((prev) => ({
