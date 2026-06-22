@@ -1,1 +1,1 @@
-export const Base_Url = "http://localhost:5000";
+export const Base_Url = "https://ai-travel-planner-backend-1ans.onrender.com";
