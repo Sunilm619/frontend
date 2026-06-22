@@ -66,8 +66,7 @@ const Login = () => {
       );
 
       console.log(response.data);
-
-      setIsLogin(true);
+      dispatch(add_user(response.data.User));
       navigate("/myTrips");
     } catch (err) {
       console.log(err);
